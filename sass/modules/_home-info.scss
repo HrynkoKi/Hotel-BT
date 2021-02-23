@@ -1,0 +1,41 @@
+.home-info {
+	height: 400px;
+	// .home-info__img
+
+	&__img {
+		float: left;
+		width: 50%;
+		min-height: 100%;
+		background-image: url("../img/photo-1.jpg");
+		background-repeat: no-repeat;
+	}
+
+	// .home-info__content
+
+	&__content {
+		float: right;
+		width: 50%;
+		height: 100%;
+		text-align: center;
+		padding: 50px 30px;
+		overflow: auto;
+	}
+
+	// .home-info__title
+
+	&__title {
+	}
+
+	// .home-info__descr
+
+	&__descr {
+		padding-bottom: 30px;
+	}
+
+	// .home-info__btn
+
+	&__btn {
+		background-color: $light-color;
+		color: $dark-color;
+	}
+}

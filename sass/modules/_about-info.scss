@@ -1,0 +1,36 @@
+.about-info {
+	// .about-info__left
+
+	&__left {
+		float: left;
+		width: 50%;
+		min-height: 100%;
+	}
+
+	// .about-info__title
+
+	&__title {
+	}
+
+	// .about-info__text
+
+	&__text {
+	}
+
+	// .about-info__right
+
+	&__right {
+		float: right;
+		width: 50%;
+		min-height: 100%;
+	}
+
+	// .about-info__img
+
+	&__img {
+		display: block;
+		margin: auto;
+		width: 70%;
+		border-radius: 50%;
+	}
+}

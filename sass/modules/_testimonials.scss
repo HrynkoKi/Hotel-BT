@@ -1,0 +1,32 @@
+.testimonials {
+	height: 100%;
+	background-image: url("../img/test-bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	// .testimonials__title
+
+	&__title {
+		color: $white-color;
+		text-align: center;
+		padding-bottom: 40px;
+		line-height: 2.6rem;
+	}
+
+	// .testimonials__block
+
+	&__block {
+		padding: 20px;
+		margin-bottom: 40px;
+		border-radius: 5px;
+		opacity: 0.9;
+
+		& img {
+			float: left;
+			width: 100px;
+			margin-right: 20px;
+			border-radius: 50%;
+		}
+	}
+}

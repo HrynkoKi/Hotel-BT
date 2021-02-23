@@ -1,0 +1,26 @@
+.features {
+	// .features__box
+
+	&__box {
+	}
+}
+
+.box {
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+	// .box__title
+
+	&__title {
+	}
+
+	// .box__descr
+
+	&__descr {
+	}
+
+	& i {
+		margin-bottom: 10px;
+	}
+}

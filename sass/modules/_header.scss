@@ -1,0 +1,41 @@
+.header {
+}
+
+.navbar {
+	color: $white-color;
+	background-color: $dark-color;
+	overflow: auto;
+
+	// .navbar__logo
+
+	&__logo {
+		float: left;
+		padding-top: 20px;
+	}
+
+	// .navbar__list
+
+	&__list {
+		float: right;
+	}
+
+	// .navbar__item
+
+	&__item {
+		float: left;
+	}
+
+	// .navbar__link
+
+	&__link {
+		display: block;
+		padding: 20px;
+		text-align: center;
+	}
+
+	&__link:hover,
+	.current {
+		background-color: #444;
+		color: $primary-color;
+	}
+}
